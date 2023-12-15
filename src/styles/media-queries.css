@@ -1,0 +1,343 @@
+@media screen and (max-width: 480px){
+  .container {
+    flex-direction: column;
+  }
+
+  .container__left,
+  .container__right {
+    width: 100%;
+  }
+  
+  .container__left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card-box__container {
+    height: 70vh;
+  }
+
+  .card-box {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .bg-video {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .bg-video .video {
+    height: 100vh;
+  }
+
+  .bg-video::after {
+    height: 100vh;
+  }
+  
+  .score_box {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+  
+  .card_details {
+    width: 50%;
+  }
+  
+  .card_details #card-name {
+    font-size: 0.7em;
+  }
+
+  .card_details #card-type {
+    font-size: 0.8rem;
+  }
+  
+  #card-image {
+    height: 90px;
+  }
+  
+  .card-box {
+    height: 5rem;
+  }
+
+  .card-infield, #player-field-card, #computer-field-card {
+    height: 8rem;
+    width: 6rem;
+  }
+  
+  .card {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container__left,
+  .container__right {
+    width: 100%;
+  }
+  
+  .container__left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+  }
+  
+  .container__right {
+    align-items: center;
+  }
+
+  .card-box__container {
+    height: 80vh;
+  }
+
+  .card-box {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .bg-video {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .bg-video .video {
+    height: 100vh;
+  }
+
+  .bg-video::after {
+    height: 100vh;
+  }
+  
+  .score_box {
+    font-size: 0.9rem;
+    width: 35%;
+  }
+  
+  .card_details {
+    width: 50%;
+  }
+  
+  #card-image {
+    height: 100px;
+  }
+  
+  .card-box {
+    height: 6rem;
+  }
+
+  .card-infield, #player-field-card, #computer-field-card {
+    height: 10rem;
+    width: 7rem;
+  }
+  
+  .card {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /*.container {
+    flex-direction: column;
+  }*/
+  
+  .container__left {
+    width: 40%;
+    align-items: center;
+  }
+  .container__right {
+    width: 80%;
+  }
+  
+  .card-box__container {
+    height: 100vh;
+  }
+  
+  .card-box {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .bg-video {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .bg-video .video {
+    height: 100vh;
+  }
+  
+  .bg-video::after {
+    height: 100vh;
+  }
+  
+  .card-infield, #player-field-card, #computer-field-card {
+    height: 10rem;
+    width: 7rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /*.container {
+    flex-direction: column;
+  }*/
+  
+  .container__left {
+    width: 40%;
+    align-items: center;
+  }
+  .container__right {
+    width: 80%;
+  }
+  
+  .card-box__container {
+    height: 100vh;
+  }
+  
+  .card-box {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .bg-video {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .bg-video .video {
+    height: 100vh;
+  }
+  
+  .bg-video::after {
+    height: 100vh;
+  }
+  
+  .card-infield, #player-field-card, #computer-field-card {
+    height: 10rem;
+    width: 7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  /*.container {
+    flex-direction: column;
+  }*/
+  
+  .container__left {
+    width: 40%;
+    align-items: center;
+  }
+  .container__right {
+    width: 80%;
+  }
+  
+  .card-box__container {
+    height: 100vh;
+  }
+  
+  .card-box {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .bg-video {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .bg-video .video {
+    height: 100vh;
+  }
+  
+  .bg-video::after {
+    height: 100vh;
+  }
+  
+  .score_box {
+    font-size: 1.5rem;
+  }
+  
+  .card_details #card-name {
+    font-size: 1.5em;
+  }
+
+  .card_details #card-type {
+    font-size: 1.8rem;
+  }
+  
+  .card-infield, #player-field-card, #computer-field-card{
+    height: 10rem;
+    width: 7rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container__left {
+    width: 50%;
+    align-items: center;
+  }
+  .container__right {
+    width: 50%;
+  }
+  
+  .card_details {
+    padding: 30px;
+  }
+  .card_details #card-name {
+    font-size: 1.5em;
+  }
+
+  .card_details #card-type {
+    font-size: 2rem;
+  }
+  
+  .card-box__container {
+    height: 100vh;
+  }
+  
+  .card-box {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .bg-video {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .bg-video .video {
+    height: 100vh;
+  }
+  
+  .bg-video::after {
+    height: 100vh;
+  }
+  
+  .score_box {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .card-infield, #player-field-card, #computer-field-card {
+    height: 10rem;
+    width: 7rem;
+  }
+}
